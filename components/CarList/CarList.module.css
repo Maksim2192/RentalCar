@@ -1,0 +1,28 @@
+.bloc {
+    place-items: center;
+}
+
+.content {
+    display: grid;
+    gap: 20;
+    grid-template-columns: repeat(4, 1fr);
+    width: 1200px;
+}
+
+.button {
+    border: 1px solid #00aad4;
+    border-radius: 12px;
+    height: 44px;
+    width: 156px;
+    background-color: darkgray;
+    display: block;
+    margin-top: 48px;
+}
+
+.textbutton {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #101828;
+    line-height: 125%;
+}

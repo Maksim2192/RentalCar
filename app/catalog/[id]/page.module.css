@@ -1,0 +1,170 @@
+.container {
+    background-color: #a9a9a9;
+    justify-content: center;
+    display: grid;
+}
+
+.widthcontainer {
+   width: 1200px;
+   margin-top: 84px;
+   display: flex;
+}
+
+.image {
+    border-radius: 16px;
+    height: 512px;
+    width: 640px;
+}
+
+.descriptioncar {
+    border-radius: 16px;
+    padding: 32px 24px;
+    width: 528px;
+    background: #fff;
+    margin-left: 32px;
+}
+
+.description {
+    display: flex;
+}
+
+.model {
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 133%;
+    color: #101828;
+}
+
+.article {
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    line-height: 125%;
+    font-size: 16px;
+    color: #8d929a;
+    margin-top: 9px;
+    margin-left: 16px;
+}
+
+.svglocation {
+    width: 12px;
+    height: 15px;
+    margin-right: 4px;
+}
+
+.location {
+    display: flex;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #101828;
+    line-height: 125%;
+    margin-top: 8px;
+}
+
+.price {
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #00aad4;
+    line-height: 133%;
+    margin-top: 16px;
+}
+
+.description {
+    font-weight: 500;
+    line-height: 125%;
+    font-size: 16px;
+    color: #101828;
+    margin-top: 32px;
+}
+
+.rental {
+    font-size: 20px;
+    font-weight: 600;
+    color: #101828;
+    line-height: 120%;
+    margin-top: 68px;
+}
+
+.checkmark {
+    width: 16px;
+    height: 16px;
+}
+
+.rentalConditions {
+    font-weight: 500;
+    line-height: 125%;
+    font-size: 16px;
+    color: #101828;
+}
+
+.condition {
+    font-weight: 500;
+    line-height: 125%;
+    font-size: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #101828;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 20px;
+}
+
+.condition li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.divider {
+    border: 1px solid #dadde1;
+    height: 0px;
+    width: 480px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.specifications {
+    font-weight: 600;
+    line-height: 120%;
+    font-size: 20px;
+    color: #101828;
+}
+
+.specificationsul {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #101828;
+    line-height: 125%;
+    list-style: none;
+    gap: 16px;
+    display: grid;
+}
+
+.features {
+    font-weight: 600;
+    line-height: 120%;
+    font-size: 20px;
+    color: #101828;
+}
+
+.featuresul {
+    font-weight: 500;
+    line-height: 125%;
+    font-size: 16px;
+    color: #101828;
+    list-style: none;
+    margin-top: 20px;
+    display: grid;
+    gap: 16px;
+}
+
+.checksvg {
+    margin-right: 8px;
+    vertical-align: middle;
+}

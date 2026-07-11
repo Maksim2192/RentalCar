@@ -1,0 +1,41 @@
+.section {
+    border-bottom: 1px solid #f2f4f7;
+    background: #fff;
+    padding: 26px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logoicons {
+    height: 30px;
+}
+
+.catalog {
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.liHome {
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    color: #101828;
+    list-style: none;
+}
+
+.licatalog {
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    color: #101828;
+    list-style: none;
+}
