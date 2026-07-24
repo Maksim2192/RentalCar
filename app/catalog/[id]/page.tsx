@@ -15,16 +15,65 @@ export default async function CarPage({
     return <div>Car not found</div>;
   }
 
+  async function handleSubmit(formData: FormData) {
+    "use server";
+
+    const name = formData.get("Name");
+    const email = formData.get("Email");
+    const comment = formData.get("Comment");
+
+    console.log({ name, email, comment });
+  }
+
   return (
     <div className={style.container}>
       <div className={style.widthcontainer}>
-        <Image
-          className={style.image}
-          src={car.img}
-          alt={car.brand}
-          width="640"
-          height="512"
-        />
+        <div>
+          <Image
+            className={style.image}
+            src={car.img}
+            alt={car.brand}
+            width="640"
+            height="512"
+          />
+
+          <div className={style.containerHelp}>
+            <p className={style.carnow}>Book your car now</p>
+            <p className={style.connected}>
+              Stay connected! We are always ready to help you.
+            </p>
+            <form className={style.forms} action={handleSubmit}>
+              <label>
+                <input
+                  className={style.tabl}
+                  type="text"
+                  placeholder="Name*"
+                  name="Name"
+                  required
+                />
+              </label>
+              <label>
+                <input
+                  className={style.tabl}
+                  type="email"
+                  placeholder="Email*"
+                  name="Email"
+                  required
+                />
+              </label>
+              <label>
+                <textarea
+                  className={style.tablcomment}
+                  placeholder="Comment"
+                  name="Comment"
+                />
+              </label>
+              <button className={style.buttonsend} type="submit">
+                Send
+              </button>
+            </form>
+          </div>
+        </div>
 
         <div className={style.descriptioncar}>
           <div className={style.description}>

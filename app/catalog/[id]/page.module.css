@@ -1,5 +1,5 @@
 .container {
-    background-color: #a9a9a9;
+    background-color: #F2F4F7;
     justify-content: center;
     display: grid;
 }
@@ -14,6 +14,64 @@
     border-radius: 16px;
     height: 512px;
     width: 640px;
+}
+
+.containerHelp {
+    border-radius: 16px;
+    width: 640px;
+    padding: 32px;
+    height: 424px;
+    background: #fff;
+    margin-top: 32px;
+}
+
+.carnow {
+    font-weight: 600;
+    line-height: 120%;
+    font-size: 20px;
+    color: #101828;
+}
+
+.connected {
+    font-size: 16px;
+    font-weight: 500;
+    color: #8d929a;
+    line-height: 125%;
+    margin-top: 8px;
+}
+
+.forms {
+    margin-top: 24px;
+}
+
+.tabl {
+    border-radius: 12px;
+    width: 576px;
+    padding: 12px 20px;
+    height: 48px;
+    background: #f7f7f7;
+    color: black;
+    margin-bottom: 16px;
+}
+
+.tablcomment {
+    border-radius: 12px;
+    width: 576px;
+    padding: 12px 20px 56px;
+    height: 88px;
+    background: #f7f7f7;
+    color: black;
+
+}
+
+.buttonsend {
+    border-radius: 12px;
+    width: 576px;
+    padding: 12px 99px;
+    height: 44px;
+    background: #00aad4;
+    margin-top: 24px;
+    cursor: pointer;
 }
 
 .descriptioncar {

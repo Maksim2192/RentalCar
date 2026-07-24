@@ -8,6 +8,9 @@ type Props = {
 };
 
 export default function CarCard({ car }: Props) {
+
+  console.log("CAR:", car);
+
   return (
     <div className={styles.card}>
       <Image
@@ -49,6 +52,7 @@ export default function CarCard({ car }: Props) {
         <Link href={`/catalog/${car.id}`}>
           <button className={styles.button}>Read more</button>
         </Link>
+        
       </div>
     </div>
   );
