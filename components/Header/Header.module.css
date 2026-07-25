@@ -39,3 +39,16 @@
     color: #101828;
     list-style: none;
 }
+
+.link {
+  color: #101828;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.active {
+  color: #3470ff;
+  text-decoration: none;
+  border-bottom: 1px solid #3470ff;
+}

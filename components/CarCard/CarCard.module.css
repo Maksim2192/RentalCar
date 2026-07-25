@@ -70,7 +70,7 @@
     flex-wrap: wrap;
     gap: 4px 10px;
     width: 244px;
-    height: 52px;
+    height: auto;
 }
 
 .line {

@@ -154,6 +154,7 @@ export default function Filter({
             onChange={(e) =>
               setSelectedPriceValue(e.target.value)
             }
+
           >
             <option value="">
               Choose a price

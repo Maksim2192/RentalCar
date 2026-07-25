@@ -1,3 +1,10 @@
+.carbrand:focus,
+.carbrandinput:focus,
+.cartoinput:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 .container {
     width: 924px;
     height: 96px;
@@ -66,6 +73,7 @@
     font-size: 16px;
     line-height: 125%;
     color: #101828;
+    padding-left: 24px;
 }
 
 .input {
