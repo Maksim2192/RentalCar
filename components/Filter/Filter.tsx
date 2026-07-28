@@ -29,7 +29,7 @@ export default function Filter({
 }: Props) {
   const router = useRouter();
   const searchParams = useSearchParams();
-  
+
 
   const [brand, setBrand] = useState(selectedBrand);
   const [selectedPriceValue, setSelectedPriceValue] =
@@ -52,8 +52,8 @@ export default function Filter({
   );
 
   useEffect(() => {
-  setLoading(false);
-}, [searchParams]);
+    setLoading(false);
+  }, [searchParams]);
 
   function handleSubmit(
     e: React.FormEvent<HTMLFormElement>

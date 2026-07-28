@@ -13,6 +13,7 @@
 
   padding-top: 436px;
 }
+
 @media (min-resolution: 2x) {
   .page {
     background-image: url(/Picture@2x.jpg);

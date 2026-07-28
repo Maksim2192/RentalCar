@@ -52,7 +52,7 @@ export default function CarCard({ car }: Props) {
         <Link href={`/catalog/${car.id}`}>
           <button className={styles.button}>Read more</button>
         </Link>
-        
+
       </div>
     </div>
   );

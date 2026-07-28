@@ -1,0 +1,153 @@
+.forms {
+    margin-top: 24px;
+}
+
+.tabl,
+.tablcomment {
+    width: 576px;
+    padding: 12px 20px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    background: #f7f7f7;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 125%;
+    color: #101828;
+    outline: none;
+    transition: border-color .2s, background-color .2s;
+}
+
+.tabl {
+    height: 48px;
+}
+
+.tablcomment {
+    height: 88px;
+    resize: none;
+}
+
+.tabl:focus,
+.tablcomment:focus {
+    border-color: #00aad4;
+    background: #fff;
+}
+
+.error {
+    border-color: #ef5050;
+    background: #fff5f5;
+}
+
+.error:focus {
+    border-color: #ef5050;
+}
+
+.errorText {
+    margin-top: -10px;
+    margin-bottom: 12px;
+    color: #ef5050;
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 133%;
+}
+
+.inputWrapper {
+    position: relative;
+}
+
+.errorIcon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+
+.buttonsend {
+    width: 576px;
+    height: 44px;
+    border: none;
+    border-radius: 12px;
+    background: #00aad4;
+    color: #fff;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background .2s;
+}
+
+.buttonsend:hover {
+    background: #0097bd;
+}
+
+.inputWrapper {
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.floatingLabel {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #8d929a;
+    pointer-events: none;
+    transition: .2s;
+}
+
+.tabl:focus+.floatingLabel,
+.tabl:not(:placeholder-shown)+.floatingLabel {
+    top: 1px;
+    transform: none;
+    font-size: 12px;
+    color: #8d929a;
+}
+
+.error {
+    border: 1px solid #EF5050 !important;
+}
+
+.error+.floatingLabel {
+    color: #EF5050;
+}
+
+.errorIcon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+
+.errorText {
+    margin-top: -10px;
+    margin-bottom: 16px;
+    font-size: 12px;
+    color: #EF5050;
+}
+
+.inputWrapper {
+    position: relative;
+}
+
+.tablcomment:focus+.floatingLabelComment,
+.tablcomment:not(:placeholder-shown)+.floatingLabelComment {
+    top: 1px;
+    transform: none;
+    font-size: 12px;
+    color: #8d929a;
+}
+
+.floatingLabelComment {
+    position: absolute;
+    left: 20px;
+    top: 18px;
+    color: #8d929a;
+    pointer-events: none;
+    transition: 0.2s;
+}

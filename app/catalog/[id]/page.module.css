@@ -5,9 +5,9 @@
 }
 
 .widthcontainer {
-   width: 1200px;
-   margin-top: 84px;
-   display: flex;
+    width: 1200px;
+    margin-top: 84px;
+    display: flex;
 }
 
 .image {
@@ -83,7 +83,7 @@
 }
 
 .description {
-       display: ruby;
+    display: ruby;
 }
 
 .model {

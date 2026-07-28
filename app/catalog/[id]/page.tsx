@@ -1,6 +1,7 @@
 import { getCarById } from "@/lib/cars";
 import Image from "next/image";
 import style from "./page.module.css";
+import BookingForm from "@/components/BookingForm/BookingForm";
 
 export default async function CarPage({
   params,
@@ -42,36 +43,7 @@ export default async function CarPage({
             <p className={style.connected}>
               Stay connected! We are always ready to help you.
             </p>
-            <form className={style.forms} action={handleSubmit}>
-              <label>
-                <input
-                  className={style.tabl}
-                  type="text"
-                  placeholder="Name*"
-                  name="Name"
-                  required
-                />
-              </label>
-              <label>
-                <input
-                  className={style.tabl}
-                  type="email"
-                  placeholder="Email*"
-                  name="Email"
-                  required
-                />
-              </label>
-              <label>
-                <textarea
-                  className={style.tablcomment}
-                  placeholder="Comment"
-                  name="Comment"
-                />
-              </label>
-              <button className={style.buttonsend} type="submit">
-                Send
-              </button>
-            </form>
+            <BookingForm action={handleSubmit} />
           </div>
         </div>
 

@@ -59,20 +59,20 @@ export default async function CatalogPage({
         }
       />
 
-     <CarList
-  initialCars={
-    data.cars
-      .filter(Boolean)
-      .filter(
-        (car, index, self) =>
-          index === self.findIndex(
-            (item) => item.id === car.id
-          )
-      )
-  }
-  totalPages={data.totalPages}
-  currentPage={data.page}
-/>
+      <CarList
+        initialCars={
+          data.cars
+            .filter(Boolean)
+            .filter(
+              (car, index, self) =>
+                index === self.findIndex(
+                  (item) => item.id === car.id
+                )
+            )
+        }
+        totalPages={data.totalPages}
+        currentPage={data.page}
+      />
 
 
     </div>
